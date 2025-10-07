@@ -1,0 +1,138 @@
+html, body {
+    height: 142%;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    min-height: 142%;
+    background: linear-gradient(to bottom, #5cabab, #bd246b, #db881a, #f0f015, #b4db1a, #5cabab);
+}
+
+.quiz-title{
+    text-align: center;
+    background-color: ivory;
+    color: black;
+    font-size: 42.0px;
+    animation: drop-down-anim 1s ease-in-out forwards;
+}
+
+@keyframes drop-down-anim {
+    from{
+        transform: translateY(-100%);
+    }
+    to{
+        transform: translateY(0%);
+    }
+}
+.quiz-container{
+    max-width: 800px;
+    height: 350px;
+    background-color: teal;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 25px;
+}
+.progress-bar-bg{
+    background-color: dodgerblue;
+    width: 90%;
+    height: 12.0001px;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.progress-bar-fill{
+    background-color: rgb(255, 153, 0);
+    width: 50%;
+    height: 12px;
+    border-radius: 10px;
+}
+.question{
+    margin-top: 25px;
+    color: whitesmoke;
+    font-size: 24.0px;
+    font-family: sans-serif;
+}
+.drop-down{
+    width: 40%;
+    height: 30px;
+    text-align: left;
+    margin: auto;
+    display: block;
+    margin-top: 10px;
+    font-weight: 400;
+    background-color: rgb(178, 123, 230);
+    border-radius: 20px;
+}
+.start-btn{
+    width: 200px;
+    height: 50px;
+    background-color: gold;
+    border-radius: 20px;
+    margin: auto;
+    display: block;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.start-btn:hover{
+    background-color: white;
+}
+.timer{
+    font-size: 40px;
+    margin: auto;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 60%;
+    padding: 60px 10px;
+    font-family: 'Press Start 2P', cursive;
+    background-color: dodgerblue;
+    width: 150.001px;
+}
+.option-container{
+    margin-top: 20px;
+    height: fit-content;
+}
+.option-btn{
+    display: block;
+    margin: auto;
+    background-color: rgb(88, 230, 152);
+    font-size: large;
+    font-family: 'Press Start 2P', cursive;
+    height: 42.0px;
+    border-radius: 10px;
+}
+.option-btn:hover{
+    background-color: rgb(255, 255, 255);}
+
+.score-label, .feedback-label{
+    font-size: larger;
+    color: rgb(236, 193, 100);
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.bgm-selector{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    width: 60%;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    font-size: 12px;
+    height: 60px;
+    background-color: hsl(167, 91%, 55%);
+}
+.music-btn{
+    margin: auto;
+    display: block;
+    margin-top: 30px;
+    color: black;
+    background-color: darkorange;
+    width: 15%;
+    height: 40px;
+    border-radius: 60px;
+    font-family: "Press Start 2P", cursive;
+}

@@ -1,0 +1,100 @@
+.main-title {
+    background-color: cyan;
+    color: chocolate;
+    font-size: 60px;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 30px;
+}
+
+.main-pic {
+    width: 50% ;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+
+
+
+.main-table {
+    width: 96.69%;
+    margin: auto;
+    background-color: gold;
+    margin-top: 10px;
+    font-size: larger;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.main-table-header {
+    background-color: cornflowerblue;
+    font-size: 42.0px;
+}
+
+.main-table td {
+    padding: 20px;
+}
+
+
+.navbar {
+    background-color: chocolate;
+    font-family: sans-serif
+}
+
+.fade-in {
+    background-color: gold;
+    font-size: larger;
+    text-align: center;
+    font-family: sans-serif;
+    opacity: 0;
+    animation: fade-in-anim 2s ease-in forwards;
+    height: 55px;
+}
+
+@keyframes fade-in-anim {
+
+    from {
+        opacity: 0;
+        font-size: smaller;
+    }
+
+    to {
+        opacity: 1;
+        font-size: larger;
+    }
+}
+
+.color-changing{
+    background-color: black;
+    height: 69px;
+    text-align: center;
+    color: ghostwhite;
+    animation: color-anim 1s infinite;
+    font-size: 30px;
+    padding: 30px;
+}
+
+@keyframes color-anim {
+    0% {color: red;}
+    20% {color: orangered;}
+    40% {color: yellow;}
+    60% {color: greenyellow;}
+    80% {color: aqua;}
+    100% {color: purple;}
+}
+
+.glide-in-out{
+    font-size: 69px ;
+    text-align: center;
+    font-family: sans-serif;
+    color: black;
+    width: 100%;
+    padding: -500px;
+    animation: glide-x-anim 2s ease-in-out infinite;
+}
+
+@keyframes glide-x-anim {
+    0% {transform: translateX(100%);}
+    100% {transform: translateX(-100%);}
+}

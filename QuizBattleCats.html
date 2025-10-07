@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+    <title> Battle Cat Quiz! </title>
+    <link rel="stylesheet" href="mainTWO.css">
+</head>
+<body>
+    <div class="quiz-title">
+        Battle Cats Quiz!
+    </div>
+
+    <div class="quiz-container">
+        <!--progress bar-->
+        <div class="progress-bar-bg">
+            <div class="progress-bar-fill" id="progress-bar-fill"></div>
+        </div>
+
+        <!--Question Label-->
+        <div class="question" id="question">
+            Questions will be displayed here. Press start to well... Start.
+        </div>
+
+        <!--Drop-down Menu-->
+        <select class="drop-down" id="drop-down">
+            <option value="1"> Sweet XP (Normal) </option>
+            <option value="2"> Growing Red (Expert) </option>
+            <option value="3"> Realm of Carnage (Deadly) </option>
+            <option value="4"> Infernal Tyrant Climax (Brutal) (Are you sure?) </option>
+        </select>
+
+        <!--Option buttons-->
+        <div class="option-container" id="option-container">
+        </div>
+        <!--Score/Feedback Label-->
+    <div class="score-label" id="score-label"> 
+        You scored 0 Catfood! (You shouldn't be proud of that.)
+    </div>
+
+    <div class="feedback-label" id="feedback-label">
+            N.A.
+    </div>
+        <!--Start Button-->
+        <button class="start-btn" id="start-btn"> Attack!!! </button>
+    </div>
+
+    <div class="timer">
+    <span id="timer-text"> 20 </span>
+    </div>
+
+    <!--bgn drop-down-->
+    <select class="bgm-selector" id="bgm-selector">
+        <option value=""> -Select a soundtrack- </option>
+        <option value="battle_cats.mp3"> Chill Battle Cats Music </option>
+        <option value="elevator.mp3"> Kevin MacLeod Music </option>
+        <option value="filibuster.mp3">  Intense Battle Cats Music </option>
+    </select>
+    <button class="music-btn" id="music-btn"> No Music :[ 🔇 </button>
+    <script src="script.js"></script>
+</body>
+</html>
